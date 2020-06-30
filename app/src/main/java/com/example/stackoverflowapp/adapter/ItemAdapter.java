@@ -17,8 +17,6 @@ import com.bumptech.glide.Glide;
 import com.example.stackoverflowapp.R;
 import com.example.stackoverflowapp.model.Item;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
 
 public class ItemAdapter extends PagedListAdapter<Item, ItemAdapter.ItemViewholder> {
