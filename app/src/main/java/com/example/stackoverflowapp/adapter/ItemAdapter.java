@@ -23,7 +23,7 @@ public class ItemAdapter extends PagedListAdapter<Item, ItemAdapter.ItemViewhold
 
     private Context context;
 
-    protected ItemAdapter(Context ctx) {
+    public ItemAdapter(Context ctx) {
         super(DIFF_CALLBACK);
 
         this.context = ctx;

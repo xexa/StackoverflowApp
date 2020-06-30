@@ -12,8 +12,8 @@ import com.example.stackoverflowapp.model.Item;
 
 public class ItemViewModel extends ViewModel {
 
-    private LiveData<PagedList<Item>> itemPageList;
-    private LiveData<PageKeyedDataSource<Integer, Item>> liveDataSource;
+    public LiveData<PagedList<Item>> itemPageList;
+    public LiveData<PageKeyedDataSource<Integer, Item>> liveDataSource;
 
     public ItemViewModel() {
         ItemDataSourceFactory itemDataSourceFactory = new ItemDataSourceFactory();
